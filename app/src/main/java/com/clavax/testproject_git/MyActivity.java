@@ -22,7 +22,7 @@ public class MyActivity extends AppCompatActivity implements BlankFragment.OnFra
 
         getSupportFragmentManager().beginTransaction().add(R.id.fragment_container,blank).commit();
 
-
+        Toast.makeText(this,"map is called",Toast.LENGTH_SHORT).show();
     }
 
 
